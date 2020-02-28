@@ -1,0 +1,483 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"mysql_",
+				"mysql_query"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"conne",
+				"connect_error"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			],
+			[
+				"err",
+				"err6"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ch",
+				"checkbox_20"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"che",
+				"checkbox_20"
+			],
+			[
+				"c",
+				"checkbox_sample19"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"pr",
+				"printErr"
+			],
+			[
+				"vali",
+				"Validate"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"pho",
+				"phone_no"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fir",
+				"first_name"
+			],
+			[
+				"first",
+				"firstname"
+			],
+			[
+				"b",
+				"background-image"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"le",
+				"margin-left"
+			],
+			[
+				"mat",
+				"margin-right"
+			],
+			[
+				"bA",
+				"background-color"
+			],
+			[
+				"fi",
+				"figcaption\tTag"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"flex",
+				"flex-container"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fl",
+				"flex-container"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fle",
+				"flex-container"
+			],
+			[
+				"sel",
+				"align-self"
+			],
+			[
+				"a",
+				"align-self"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"text-a",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 112.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/lampp/htdocs/php/practice/practice.html",
+		"/opt/lampp/htdocs/harsh/assignment3/validation2.js",
+		"/opt/lampp/htdocs/php/practice/coustom.js",
+		"/opt/lampp/htdocs/harsh/assignment3/index.html",
+		"/opt/lampp/htdocs/harsh/my_test/project.html",
+		"/opt/lampp/htdocs/php/practice/jquery/3.4.1/jquery.min.js",
+		"/opt/lampp/htdocs/php/basaisehi.php",
+		"/opt/lampp/htdocs/php/initi.php",
+		"/opt/lampp/htdocs/php/crud/server.php",
+		"/opt/lampp/htdocs/php/crud/delete.php",
+		"/opt/lampp/htdocs/php/crud/styles.css",
+		"/opt/lampp/htdocs/php/crud/edit.php",
+		"/opt/lampp/htdocs/php/crud/index.php",
+		"/opt/lampp/htdocs/php/styles.css",
+		"/opt/lampp/htdocs/php/server.php",
+		"/opt/lampp/htdocs/php/crud.php",
+		"/opt/lampp/htdocs/php/init.php",
+		"/opt/lampp/htdocs/php/tst.php",
+		"/opt/lampp/htdocs/php/tst2.php",
+		"/opt/lampp/htdocs/php/crttable.php",
+		"/opt/lampp/htdocs/harsh/assignment1/index.html",
+		"/opt/lampp/htdocs/harsh/my_test/coustom.js",
+		"/opt/lampp/htdocs/form.php",
+		"/opt/lampp/htdocs/php/1st.php",
+		"/opt/lampp/htdocs/harsh/assignment2/index.html",
+		"/opt/lampp/htdocs/harsh/assignment2/validation.js",
+		"/opt/lampp/htdocs/harsh/my_test/new.html",
+		"/opt/lampp/htdocs/harsh/myfirst_test_harsh/project.html",
+		"/opt/lampp/htdocs/harsh/myfirst_test_harsh/coustom.js",
+		"/opt/lampp/htdocs/myfirst_test_harsh/project.html",
+		"/opt/lampp/htdocs/harsh/myfirst_test_harsh/table.html",
+		"/opt/lampp/htdocs/assignments/harsh/assignment2/validation.js",
+		"/opt/lampp/htdocs/assignments/harsh/assignment2/index.html",
+		"/opt/lampp/htdocs/myfirst_test_harsh/Untitled Document",
+		"/opt/lampp/htdocs/assignments/harsh/assignment1/index.html",
+		"/opt/lampp/htdocs/harsh/assignment2/validation2.js",
+		"/opt/lampp/htdocs/harsh/assignment 3/index.html",
+		"/opt/lampp/htdocs/harsh/assignment2/index.php",
+		"/opt/lampp/htdocs/harsh/assignment1/Assignment1/index.html",
+		"/home/user/Desktop/custom.js",
+		"/home/user/.cache/.fr-8NpXBq/js/ass2/index.html",
+		"/opt/lampp/htdocs/harsh/myproject.html",
+		"/opt/lampp/htdocs/harsh/newfile.html",
+		"/opt/lampp/htdocs/harsh/test.html",
+		"/opt/lampp/htdocs/harsh/comment_box_user_image.jpg",
+		"/opt/lampp/htdocs/harsh/hbg3.png",
+		"/opt/lampp/htdocs/harsh/hbg4.png",
+		"/home/user/Downloads/js/jquery.bxslider.js",
+		"/home/user/Downloads/css/responsive.css",
+		"/home/user/Downloads/css/medium-resolution.css",
+		"/home/user/Downloads/css/jquery.bxslider.css",
+		"/home/user/Downloads/css/high-resolution.css",
+		"/home/user/Downloads/css/default.css",
+		"/home/user/Downloads/index.html",
+		"/home/user/Downloads/assignment_1.rar",
+		"/opt/lampp/htdocs/harsh/testing1.html",
+		"/opt/lampp/htdocs/harsh/check.html",
+		"/opt/lampp/htdocs/harsh/newproc.css",
+		"/opt/lampp/htdocs/harsh/TP.html",
+		"/opt/lampp/htdocs/harsh/xyz.php",
+		"/opt/lampp/htdocs/harsh/welcome.php",
+		"/opt/lampp/htdocs/harsh/abc.php",
+		"/opt/lampp/htdocs/harsh/untitled.html",
+		"/opt/lampp/htdocs/harsh/test.php",
+		"/opt/lampp/htdocs/harsh/sec.php",
+		"/opt/lampp/htdocs/harsh/<html>"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mobileno",
+			"err5",
+			"dob",
+			"err5",
+			">\n",
+			"\");\n",
+			"validation",
+			"pno",
+			"form",
+			"validate",
+			"validat",
+			"DOB",
+			"date",
+			"\">\n",
+			"true",
+			"form",
+			"First Name",
+			"center",
+			"450px",
+			"anything"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

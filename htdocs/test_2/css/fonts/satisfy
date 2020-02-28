@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'satisfy_regular';
+    src: url('../fonts/satisfy-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
