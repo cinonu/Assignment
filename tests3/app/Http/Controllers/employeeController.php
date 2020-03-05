@@ -45,6 +45,20 @@ class employeeController extends Controller
      */
     public function store(Request $request)
     {
+       $request->validate([
+            'firstname'=>'required |regex:/^[a-zA-Z]/',
+            'lastname'=>'required |regex:/^[a-zA-Z]/',
+            'email'=>'required|email|unique:employees',
+            'phonenumber'=>'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10|max:14|unique:employees',
+            'city'=>'required',
+            'gender'=>'required',
+             'status'=>'required',
+            'picture'=>'required|image|mimes:png,jpg|max:1024',
+            'age'=>'required'
+
+
+
+        ]);
 
     $cover = $request->file('picture');
     $extension = $cover->getClientOriginalExtension();
@@ -59,6 +73,7 @@ class employeeController extends Controller
     $employees->gender = $request->gender;
     $employees->status = $request->status;
     $employees->picture = $cover->getFilename().'.'.$extension;
+    $employees->age = $request->age;
     $employees->save();
     
        
@@ -66,7 +81,7 @@ class employeeController extends Controller
     
    
         return redirect()->route('employees.index')
-                        ->with('success','Product created successfully.');
+                        ->with('success','employee created successfully.');
     }
 
     /**
@@ -100,7 +115,36 @@ class employeeController extends Controller
      */
     public function update(Request $request, employee $employee)
     {
-          $employee->update($request->all());
+
+         $request->validate([
+            'firstname'=>'required |regex:/^[a-zA-Z]/',
+            'lastname'=>'required |regex:/^[a-zA-Z]/',
+            'email'=>'required|email|unique:employees',
+            'phonenumber'=>'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10|max:14|unique:employees',
+            'city'=>'required',
+            'gender'=>'required',
+             'status'=>'required',
+            'picture'=>'required|image|mimes:png,jpg|max:1024',
+        ]);
+
+            $employees  = new employee ;
+    $employees->firstname = $request->firstname;
+    $employees->lastname = $request->lastname;
+    $employees->email= $request->email;
+    $employees->phonenumber = $request->phonenumber;
+    $employees->city = $request->city;
+    $employees->gender = $request->gender;
+    $employees->status = $request->status;
+    $employees->picture = $cover->getFilename().'.'.$extension;
+    $employees->age = $request->age;
+    $employees->save();
+    
+
+
+
+        
+
+          // $employee->update($request->all());
     // $cover = $request->file('picture');
     // $extension = $cover->getClientOriginalExtension();
     // Storage::disk('public')->put($cover->getFilename().'.'.$extension, 
@@ -118,7 +162,8 @@ class employeeController extends Controller
     // $employee->save();
   
   
-        return redirect()->route('employees.index');
+        return redirect()->route('employees.index')
+                         ->with('success','employee updated successfully.');
     }
 
     /**
@@ -130,6 +175,7 @@ class employeeController extends Controller
     public function destroy(employee $employee)
     {
          $employee->delete();
-        return redirect()->route('employees.index');
+        return redirect()->route('employees.index')
+                         ->with('success','Poof Deleted.');
     }
 }

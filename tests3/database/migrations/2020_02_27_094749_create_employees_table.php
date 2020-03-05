@@ -23,6 +23,7 @@ class CreateEmployeesTable extends Migration
             $table->string('gender');
             $table->string('picture');
             $table->string('status');
+            $table->string('age');
             $table->timestamps();
         });
     }
