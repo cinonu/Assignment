@@ -29,6 +29,7 @@
             <th>City</th>
             <th>Gender</th>
             <th>Profilephoto</th>
+            <th>age</th>
             <th>Status</th>
 
             <th width="280px">Action</th>
@@ -45,7 +46,7 @@
             <td> 
                 <img width="100px" src="{{url('uploads/'.$employee->picture)}}" alt="{{$employee->picture}}">
             </td>
-           
+           <td>{{$employee->age}}</td>
             <td>{{ $employee->status }}</td>
             <td>
                 <form action="{{ route('employees.destroy',$employee->id) }}" method="POST">

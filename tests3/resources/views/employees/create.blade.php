@@ -117,7 +117,6 @@ function yesnoCheck() {
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.js"></script>
     {{-- <script type="text/javascript" src="{{asset('validate.js')}}"></script> --}}
 </form>
-    
 
 @endsection
 

@@ -9,6 +9,7 @@ var re = new RegExp(regexp);
 return this.optional(element) || re.test(value);
 },""
 );
+ignore: "#hidden"
 
 $.validator.addMethod('filesize', function (value, element, param) {
 return this.optional(element) || (element.files[0].size <= param)
@@ -56,6 +57,10 @@ gender:
 {
 required:true,
 },
+age:
+{
+ required:true,
+},
 
 picture:
 {
@@ -90,6 +95,10 @@ required:"please select city."
 gender:
 {
 required:"please select gender."
+},
+age:
+{
+required:"please enter age."
 },
 picture:
 {

@@ -54,11 +54,12 @@ class employeeController extends Controller
             'gender'=>'required',
              'status'=>'required',
             'picture'=>'required|image|mimes:png,jpg|max:1024',
-            'age'=>'required'
+        
 
 
 
-        ]);
+    ]);
+   
 
     $cover = $request->file('picture');
     $extension = $cover->getClientOriginalExtension();
@@ -73,7 +74,7 @@ class employeeController extends Controller
     $employees->gender = $request->gender;
     $employees->status = $request->status;
     $employees->picture = $cover->getFilename().'.'.$extension;
-    $employees->age = $request->age;
+    $employees->age  = $request->age;
     $employees->save();
     
        
@@ -81,8 +82,10 @@ class employeeController extends Controller
     
    
         return redirect()->route('employees.index')
+       
                         ->with('success','employee created successfully.');
-    }
+                    }
+    
 
     /**
      * Display the specified resource.
@@ -103,6 +106,7 @@ class employeeController extends Controller
      */
     public function edit(employee $employee)
     {
+        
         return view('employees.edit',compact('employee'));
     }
 
@@ -136,7 +140,7 @@ class employeeController extends Controller
     $employees->gender = $request->gender;
     $employees->status = $request->status;
     $employees->picture = $cover->getFilename().'.'.$extension;
-    $employees->age = $request->age;
+    // $employees->age = $request->age;
     $employees->save();
     
 
